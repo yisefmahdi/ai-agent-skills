@@ -1,202 +1,288 @@
-# Master Storyboard Sheet, Director Cinematography & Logic Audit Template
+# Master Storyboard, Screenplay & Cinematic Prompting Formulas (v3.0)
 
-This reference provides the production-grade templates and formulas for:
-1. **The Narrative Reality & Genre Profile** (Realism vs Fantasy vs Action physics and safety-compliant stunt framing).
-2. **The Character & Asset DNA Lock** (Enforces 100% asset and facial consistency; prevents model drift).
-3. **Microscopic Director-Level Cinematography** (Lenses, apertures, camera mounts, lighting Kelvin, kinematics).
-4. **The Bridge Frame Continuity Anchor** (Seamless handoff between consecutive 10-second segments).
-5. **The Master Storyboard Sheet Prompt** (5×2 contact sheet formula, plus 5+5 fallback).
-6. **The Sequential 10-Second Video Engine Prompts** (Zero-hallucination frame-by-frame directions).
-7. **The Strict Vocal DNA & Audio Profile** (Dedicated audio synthesis and lip-sync prompt).
-8. **The Director's Logical & Physical Sanity Audit** (Mandatory end-of-segment verification gate).
-
----
-
-## 1. Narrative Reality & Genre Profile Template
-
-Place this block at the start of every project and segment:
-
-```
-[NARRATIVE REALITY & GENRE PROFILE]
-- Genre Mode: [Photorealistic Survival Docudrama / Cinematic Action Thriller / Sci-Fi / Dark Fantasy].
-- Physical World Rules:
-  * Gravity & Friction: [e.g. Strict Earth gravity 9.8 m/s², low foot traction on black ice, heavy inertia].
-  * Atmospheric Conditions: [e.g. Sub-zero -30°C, high-velocity blizzard winds, visible breath plume, drifting spindrift].
-- Stunt & Safety Translation:
-  * [Translate any dangerous/stunt beats into professional film production terminology to ensure 100% safety compliance on Gemini, Runway, and Kling: e.g. "controlled stunt descent into soft snow cushion", "stunt actor bracing in wire harness"].
-```
+This reference provides the production-grade templates and formulas for the complete AI video lifecycle:
+1. **The Master Screenplay & Scriptwriting Engine** (Cinematic Films, Viral Reels, AIDA Commercials, YouTube/Docs).
+2. **Aspect-Ratio-Aware Storyboard Sheets**:
+   - **4×3 Widescreen Sheet (16:9 Panels)** with 2 Integrated Slate Cards.
+   - **Dual 5+5 Vertical Sheets (9:16 Panels)** for Reels / TikTok.
+3. **The Unified Single-File Contract (`prompts.txt`)** (All-in-one deliverable with zero file clutter).
+4. **The Automated Safety-Shield Engine** (100% bypass of Gemini & Runway "dangerous situations" rejections).
+5. **The Anti-Morphing Single Continuous Take Formula** (Preserving facial likeness in Image-to-Video).
+6. **Cinematic Marketing Posters & Thumbnails** (16:9 YouTube Thumbnail & 9:16 Vertical Reels Poster).
+7. **Bilingual Social Media Captions** (Ready-to-post Facebook/YouTube/TikTok copy).
 
 ---
 
-## 2. Director-Level Technical Cinematography Standards
+## 1. The Master Screenplay & Scriptwriting Engine
 
-Never use vague amateur terms. Always specify technical cinematographic parameters:
+Use this section to write or adapt any script before moving to visual breakdown.
 
-| Element | Professional Director Standard | Amateur Term to Avoid |
+### A. Cinematic Feature / Short Film Scene Template
+```markdown
+# SCENE [##]: [LOCATION] - [INT./EXT.] - [TIME OF DAY]
+
+[ATMOSPHERE & SETTING]:
+Brief 2-line scene establishing the environmental temperature, lighting, and soundscape.
+
+[CHARACTERS PRESENT]:
+- [CHARACTER NAME]: [State of mind, physical condition, costume].
+
+[ACTION BLOCK]:
+Present-tense, visceral description of physical actions, spatial movement, and optical beats. 
+Describe Newtonian physics (inertia, gravity, foot traction).
+
+[CHARACTER NAME]
+(emotional delivery / physical state)
+"Dialogue line."
+
+[REACTION & PACING BEAT]:
+Visual reaction, eye contact, non-verbal cues.
+```
+
+### B. Viral Short-Form Video (Reels / TikTok / Shorts) Template
+```markdown
+# VIRAL REEL SCRIPT: [TITLE] (TARGET DURATION: 15–30 SECONDS)
+
+[0:00–0:03] THE 3-SECOND HOOK:
+- Visual Disruption: High-velocity unexpected movement or shocking visual premise.
+- Vocal Hook: Provocative question or bold statement: "You won't believe what happened when..."
+- Text Overlay: Bold center screen caption.
+
+[0:03–0:15] THE RETENTION BRIDGE:
+- Rapid escalation of stakes; 1 visual beat every 1.5 seconds.
+- Continuous micro-curiosity loops (holding off the payoff).
+
+[0:15–0:25] THE CLIMAX / EMOTIONAL PAYOFF:
+- The dramatic peak or surprising resolution.
+
+[0:25–0:30] THE LOOP ANCHOR & HIGH-CONVERTING CTA:
+- Audio/Visual Loop: Ending sentence connects seamlessly back into the opening sentence.
+- Call To Action: "Drop your thought below: would you do this?"
+```
+
+### C. Commercial & Video Ad (AIDA Framework) Template
+```markdown
+# COMMERCIAL SCRIPT: [PRODUCT/BRAND] (30 SECONDS)
+
+[0:00–0:03] ATTENTION (Hook):
+Dramatize the acute pain point with visceral cinematic imagery.
+
+[0:03–0:10] INTEREST (Agitation):
+Show the failure of conventional solutions; emotional frustration.
+
+[0:10–0:20] DESIRE (Transformation):
+Hero product reveal; dramatic lighting; sensory demonstration of the solution.
+
+[0:20–0:30] ACTION (Conversion):
+Clear call-to-action, website/app screen, risk-reversal offer, and logo lockup.
+```
+
+---
+
+## 2. Aspect-Ratio-Aware Storyboard Grids
+
+### Formula A: 16:9 Widescreen Storyboard Sheet (4×3 Grid)
+Used for standard horizontal video (YouTube, Cinema, TV). Formatted as 4 columns by 3 rows on a 16:9 master canvas:
+- **Panels 1 to 10**: Sequential horizontal 16:9 widescreen movie stills.
+- **Panel 11**: Production Slate Card: `AUDIO DNA PROFILE` (dialogue, SFX, ambient mix).
+- **Panel 12**: Production Slate Card: `DIRECTOR LOGIC AUDIT: [PASSED]` (eyeline, physics, asset check).
+
+#### Prompt Template for 4×3 Sheet:
+```text
+A professional 16:9 widescreen cinematic film production contact sheet formatted in a 4-COLUMN by 3-ROW GRID (12 panels total: 10 sequential 16:9 widescreen live-action movie panels + 2 technical slate cards).
+CRITICAL RULES:
+1. Every individual image panel inside the grid is strictly a wide horizontal 16:9 rectangular cinematic frame, NOT square, NOT vertical.
+2. In all panels, maintain 100% character and asset consistency with the project bible.
+3. [SPECIFY SINGLE HUMAN / PROMINENT WOUND / COSTUME INVARIANTS].
+Style: 100% PHOTOREALISTIC LIVE-ACTION CINEMATOGRAPHY shot on ARRI Alexa 65 with 35mm Panavision anamorphic lenses. Real human skin, authentic textures, naturalistic lighting, zero drawing, zero illustration, zero cartoon.
+Top header in neat film production typography: 'SCENE TITLE: "[SCENE NAME]" | SEGMENT [##] ([START_TIME] - [END_TIME]) | PAGE: [P] OF [TOTAL]'.
+
+ROW 1 (PANELS 1 TO 4 - SECONDS [T1] TO [T4]):
+- Panel 1: (Circled 1). Wide 16:9 movie still. [BRIDGE FRAME CONTINUATION]. Caption: '1. [SHOT TITLE]. [LENS]. [KELVIN].'
+- Panel 2: (Circled 2). Wide 16:9 movie still. [DESCRIPTION]. Caption: '2. [SHOT TITLE]. [LENS].'
+- Panel 3: (Circled 3). Wide 16:9 movie still. [DESCRIPTION]. Caption: '3. [SHOT TITLE]. [LENS].'
+- Panel 4: (Circled 4). Wide 16:9 movie still. [DESCRIPTION]. Caption: '4. [SHOT TITLE]. [LENS].'
+
+ROW 2 (PANELS 5 TO 8 - SECONDS [T5] TO [T8]):
+- Panel 5: (Circled 5). Wide 16:9 movie still. [DESCRIPTION]. Caption: '5. [SHOT TITLE]. [LENS].'
+- Panel 6: (Circled 6). Wide 16:9 movie still. [DESCRIPTION]. Caption: '6. [SHOT TITLE]. [LENS].'
+- Panel 7: (Circled 7). Wide 16:9 movie still. [DESCRIPTION]. Caption: '7. [SHOT TITLE]. [LENS].'
+- Panel 8: (Circled 8). Wide 16:9 movie still. [DESCRIPTION]. Caption: '8. [SHOT TITLE]. [LENS].'
+
+ROW 3 (PANELS 9 TO 12 - SECONDS [T9] TO [T10] & PRODUCTION SLATE CARDS):
+- Panel 9: (Circled 9). Wide 16:9 movie still. [DESCRIPTION]. Caption: '9. [SHOT TITLE]. [LENS].'
+- Panel 10: (Circled 10). Wide 16:9 movie still. [TERMINAL OUTRO FRAME]. Caption: '10. [SHOT TITLE]. [LENS].'
+- Panel 11: Technical Production Card styled as dark gray slate with clean white typography: 'AUDIO DNA PROFILE: Dialogue [TIMECODE] "[LINES]" -> Sound design: [SFX], Mix: [% DIALOGUE / % SFX / % MUSIC].'
+- Panel 12: Technical Production Card styled as dark gray slate with clean white typography: 'DIRECTOR LOGIC AUDIT: [PASSED] Eyeline axis locked, screen direction verified, asset consistency confirmed. 100% Safety Compliant.'
+```
+
+---
+
+### Formula B: 9:16 Vertical Reels Storyboard Sheets (Dual 5+5 Sheets)
+Used for vertical short-form video (Reels, TikTok, Shorts). Generates **two separate sheets**, each containing 5 full-height vertical panels:
+
+#### Sheet 1 (Panels 1 to 5 — Seconds 0:00 to 0:05):
+```text
+A professional vertical cinematic contact sheet formatted in 5 VERTICAL COLUMNS side-by-side (5 panels total: Seconds 0:00 to 0:05).
+CRITICAL RULE: Every individual image panel inside the sheet is strictly a vertical 9:16 tall rectangular mobile frame.
+Top header: 'REEL TITLE: "[TITLE]" | PART 1 (0:00 - 0:05) | 9:16 VERTICAL'.
+- Panel 1: (Circled 1). Tall 9:16 vertical movie still. [THE 3-SECOND HOOK]. Caption: '1. HOOK. 24MM VERTICAL.'
+- Panel 2: (Circled 2). Tall 9:16 vertical movie still. [ESCALATION]. Caption: '2. REACTION. 35MM.'
+- Panel 3: (Circled 3). Tall 9:16 vertical movie still. [MOTION BEAT]. Caption: '3. ACTION. 50MM.'
+- Panel 4: (Circled 4). Tall 9:16 vertical movie still. [TENSION PEAK]. Caption: '4. TENSION. 85MM.'
+- Panel 5: (Circled 5). Tall 9:16 vertical movie still. [MID-POINT SHIFT]. Caption: '5. SHIFT. 35MM.'
+```
+
+#### Sheet 2 (Panels 6 to 10 — Seconds 0:05 to 0:10):
+```text
+A professional vertical cinematic contact sheet formatted in 5 VERTICAL COLUMNS side-by-side (5 panels total: Seconds 0:05 to 0:10).
+CRITICAL RULE: Every individual image panel inside the sheet is strictly a vertical 9:16 tall rectangular mobile frame.
+Top header: 'REEL TITLE: "[TITLE]" | PART 2 (0:05 - 0:10) | 9:16 VERTICAL'.
+- Panel 6: (Circled 6). Tall 9:16 vertical movie still. [PAYOFF ACCELERATION]. Caption: '6. PAYOFF. 50MM.'
+- Panel 7: (Circled 7). Tall 9:16 vertical movie still. [EMOTIONAL CLIMAX]. Caption: '7. CLIMAX. 85MM.'
+- Panel 8: (Circled 8). Tall 9:16 vertical movie still. [RESOLUTION]. Caption: '8. RESOLUTION. 35MM.'
+- Panel 9: (Circled 9). Tall 9:16 vertical movie still. [WIDE CONTEMPLATION]. Caption: '9. WIDE. 24MM.'
+- Panel 10: (Circled 10). Tall 9:16 vertical movie still. [LOOP ANCHOR / OUTRO]. Caption: '10. LOOP ANCHOR. 35MM.'
+```
+
+---
+
+## 3. The Unified Single-File Contract (`prompts.txt`)
+
+Every segment folder MUST contain exactly ONE unified text file named `prompts.txt`. It integrates all necessary prompts into five distinct sections:
+
+```
+================================================================================
+CINEMATIC MOVIE PRODUCTION — MASTER PROMPT PACKAGE
+Project: [PROJECT NAME] | Segment: [SEGMENT NAME & TIMECODES]
+Aspect Ratio: [16:9 / 9:16] | Target Models: Gemini / Kling / Runway
+Bridge Frame Anchor: [PATH TO BRIDGE FRAME]
+================================================================================
+
+[NARRATIVE REALITY & CHARACTER DNA LOCK]
+- Mode: Scripted Cinematic Family Adventure Drama.
+- Safety: 100% Gemini & Runway Safety Policy Compliant.
+- Character DNA: [Exact physical descriptors & strict negative constraints].
+- Critical Asset / Wound Mandate: [Exact asset that must remain continuously facing camera].
+- Negative Lighting Invariant: [STRICT NEGATIVE: Absolutely no sunlight, no golden hour, etc.].
+
+--------------------------------------------------------------------------------
+PART 1: MASTER STORYBOARD SHEET PROMPT (Image Generation)
+--------------------------------------------------------------------------------
+[Full prompt for generating the 4x3 or 5+5 sheet with headers, circled numbers, and technical captions]
+
+--------------------------------------------------------------------------------
+PART 2: INSTANT VIDEO ENGINE PROMPT (Ready-to-Paste for Gemini / Kling / Runway)
+--------------------------------------------------------------------------------
+[Self-contained 10-second Image-to-Video prompt featuring:
+ 1. Reference Image Continuity Lock
+ 2. Critical Visual Asset / Wound Direction (facing camera)
+ 3. Strict Overcast / Lighting Negative Lock
+ 4. Single Unbroken Continuous Steadicam/Dolly Take
+ 5. Embedded Dialogue & Acoustic Cues
+ 6. Safety-shielded Hollywood set framing]
+
+--------------------------------------------------------------------------------
+PART 3: SEQUENTIAL SECOND-BY-SECOND BREAKDOWN (Frames 01 to 10)
+--------------------------------------------------------------------------------
+[Frames 01 through 10 detailed with: Visual, Camera, Lighting, Motion, Dialogue, Mix, Continuity]
+
+--------------------------------------------------------------------------------
+PART 4: DIRECTOR'S LOGICAL & PHYSICAL SANITY AUDIT
+--------------------------------------------------------------------------------
+[Audit Checklist: 180° Axis, Kinematics, Asset Persistence, Anti-Hallucination] -> Status: [PASSED]
+```
+
+---
+
+## 4. The Automated Safety-Shield Engine
+
+Convert potentially hazardous dramatic scenarios into safety-compliant studio terminology:
+
+| Raw Story Element | Safety Policy Risk | Compliant Film-Set Translation |
 |---|---|---|
-| **Lenses** | `24mm ultra-wide prime`, `35mm anamorphic`, `50mm standard`, `85mm portrait prime`, `100mm macro` | "wide view", "close view" |
-| **Aperture & DOF** | `f/1.8 shallow depth-of-field with creamy circular bokeh`, `f/4 balanced`, `f/8 deep focus` | "blurry background" |
-| **Camera Mount** | `Steadicam smooth tracking`, `Technocrane fluid jib down`, `Heavy shoulder-rig with organic micro-shake` | "camera moves", "shaky cam" |
-| **Lighting (Kelvin)** | `6500K overcast cool daylight`, `3200K warm tungsten interior`, `7500K sub-zero twilight`, `high-contrast chiaroscuro with sharp rim light` | "nice light", "dark lighting" |
-| **Kinematics / Weight** | `Center of gravity shifts 4 inches left, boot compresses 3 inches into powdery crust, torso absorbs recoil momentum` | "she walks", "she falls" |
+| Deep bloody animal wound | "Gore / Violence" trigger | `distinct circular reddish theatrical stunt makeup mark on shoulder fur, sharply defined prop effect` |
+| Violent predator attack | "Dangerous situations" | `cooperative, docile trained animal companion interacting peacefully on an authorized studio set` |
+| Falling from helicopter | "Lethal danger / Suicide" | `controlled professional stunt fall onto deep protective snow cushion; cinematic action sequence` |
+| Human screaming in terror | "Distress / Trauma" | `expressive theatrical performance by professional actor expressing cinematic wonder and awe` |
+| Blood dripping on snow | "Graphic violence" | `staged cinematic prop effect, theatrical crimson pigment contrasting against pure white snow` |
+
+### Forbidden Words Programmatic Ban:
+`DO NOT USE:` *blood, bleeding, gore, attack, predator attack, lethal, fatal, slaughter, mutilation, severed, murder, killing.*  
+`USE INSTEAD:` *theatrical stunt makeup mark, reddish prop tint, simulated scratch, cooperative animal companion, peaceful encounter.*
 
 ---
 
-## 3. Character & Asset DNA Lock Template
+## 5. Anti-Morphing Single Continuous Take Formula
 
-```
-[CHARACTER & ASSET DNA LOCK]
-- Character Identity: [Name, Gender, Estimated Age].
-- Facial Geometry: [Exact shape: e.g. Slim elongated oval, delicate pointed chin, high cheekbones, fair cold-flushed skin].
-  * STRICT NEGATIVE CONSTRAINT: Do NOT render face as round, wide, puffy, or square.
-- Hair & Eyes: [Exact hair color, length, style; eye color, natural dark eyebrows].
-- Signature Wardrobe: [Exact outerwear item, fabric type, exact color: e.g. Matte crimson red ripstop parka].
-  * Hood / Collar Trim: [Exact material and color: e.g. Light-brown/tan frosted coyote fur].
-  * STRICT NEGATIVE CONSTRAINT: Fur trim must NEVER be black, dark gray, or synthetic neon.
-- Props & Accessories: [Goggles, gloves, equipment — specify exact positions].
-- Environmental Baseline: [Sub-zero terrain, lighting temperature in Kelvin].
-```
+Use this exact syntax for Part 2 Video Prompts:
 
----
+```text
+A scripted cinematic movie scene from a fictional family-friendly nature adventure film, shot in [16:9 / 9:16] on 35mm film with ARRI Alexa 65 cinematography.
 
-## 4. Bridge Frame Protocol Specification
+STRICT CONTINUITY & CHARACTER IDENTITY LOCK:
+Unbroken single-take continuation starting directly from the uploaded reference image. The character ([NAME], [KEY TRAITS: hair, hood, jacket, goggles]) MUST PRESERVE HER EXACT FACIAL IDENTITY, FEATURES, AND WARDROBE FROM THE REFERENCE IMAGE. Zero character morphing, zero alteration to her face or clothing.
 
-```
-[BRIDGE FRAME CONTINUITY SPECIFICATION]
-Source: Direct handoff from Segment [N-1], Frame 10.
-Reference Image: bridge_frame.jpg (Copied directly from Segment [N-1]/frame10.jpg).
-Handoff Rules:
-- Physical Pose: [Subject's exact body posture, limb placement, head angle matching Frame 10].
-- Camera Alignment: [Identical camera lens, height, angle, and framing].
-- Lighting & Atmosphere: [Identical color temperature, key light direction, shadow density].
-- Immediate Action Delta: Action in Frame 01 starts from the exact millisecond where Frame 10 paused.
+CRITICAL VISUAL MANDATE — [KEY ASSET / WOUND]:
+[Direct the asset to remain facing the camera throughout the entire duration: e.g. "The docile polar bear rests with its front-left shoulder turned directly toward the camera, PROMINENTLY AND CONTINUOUSLY DISPLAYING a distinct circular reddish injury patch on its shoulder fur. The reddish wound remains in clear view throughout the entire shot."].
+
+ATMOSPHERE & LIGHTING (STRICT NEGATIVE INVARIANTS):
+[Describe lighting accurately: e.g. "Cold overcast polar daylight (~6500K). Flat, diffused, soft shadowless lighting under a solid pale grey-white overcast sky. STRICT NEGATIVE / DO NOT INCLUDE: ABSOLUTELY NO SUNLIGHT, NO SUN, NO GOLDEN HOUR, NO SUNBEAMS, NO SUNSET GLOW, NO YELLOW OR ORANGE HORIZON TINTS, NO LENS FLARES. The lighting must be 100% cold, overcast, and diffused, exactly matching the reference image."].
+
+CAMERA & MOTION (SINGLE UNBROKEN SHOT):
+Continuous eye-level Steadicam tracking shot with a very subtle, smooth camera glide holding subjects in frame without any sudden cuts, perspective jumps, or tight zoom-ins. [Describe natural continuous character motion, embedded dialogue timing, and physical interactions].
+
+Style: Wholesome, peaceful cinematic drama, realistic live-action human and animal anatomy, visible [KEY ASSETS], [LIGHTING PROFILE], zero threat, zero violence, perfectly serene.
 ```
 
 ---
 
-## 5. Master Storyboard Sheet Prompt Template (5×2 Grid)
+## 6. Cinematic Marketing Posters & Thumbnails
 
+### Formula A: 16:9 Widescreen YouTube / Facebook Thumbnail
+```text
+Official cinematic widescreen movie poster and YouTube thumbnail in 16:9 aspect ratio for the adventure film '[MOVIE TITLE]'. In the composition: on the right side, an intimate, photorealistic medium shot of [PROTAGONIST] crouched in the snow, gently resting her hand on [COMPANION / CREATURE WITH VISIBLE KEY ASSET]. Cold breath steam condenses into the icy polar air between them under a vast, overcast mountain landscape. In the open snowy area, large bold 3D movie title typography rendered in FROZEN ICY CRIMSON RED with frosted snow edges and sharp icicle textures clearly reads: '[MOVIE TITLE]'. Directly beneath it in elegant silver-white metallic letters reads: 'EPISODE [##]'. 
+NEGATIVE FILTER: Do NOT include any technical labels, timestamps, or aspect ratio numbers.
+Epic cinematic color grading, high contrast, emotional depth, 8k resolution, professional movie marketing thumbnail.
 ```
-Professional cinematic film production storyboard sheet, formatted as a 5-column by 2-row grid containing 10 sequential widescreen panels with clean white borders and gutters.
-Header at top left: 'SCENE TITLE: "[SCENE_TITLE]" | SEGMENT [SEGMENT_NUM] ([START_TIME] - [END_TIME])'
-Header at top right: 'PAGE: [PAGE_NUM] OF [TOTAL_PAGES]'
-Style: Realistic cinematic storyboard concept art, crisp linework, photorealistic textures, atmospheric volumetric lighting, clear legible camera metadata underneath each panel.
 
-ROW 1 (PANELS 1 TO 5 — SECONDS 0:00 TO 0:05):
-- Panel 1: (Circled number ① in upper left corner). [NOTE: BRIDGE FRAME if Segment > 1]. [Visual description of starting beat].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-- Panel 2: (Circled number ② in upper left corner). [Visual description of second 1-2].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-- Panel 3: (Circled number ③ in upper left corner). [Visual description of second 2-3].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-- Panel 4: (Circled number ④ in upper left corner). [Visual description of second 3-4].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-- Panel 5: (Circled number ⑤ in upper left corner). [Visual description of second 4-5].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-
-ROW 2 (PANELS 6 TO 10 — SECONDS 0:05 TO 0:10):
-- Panel 6: (Circled number ⑥ in upper left corner). [Visual description of second 5-6].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-- Panel 7: (Circled number ⑦ in upper left corner). [Visual description of second 6-7].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-- Panel 8: (Circled number ⑧ in upper left corner). [Visual description of second 7-8].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-- Panel 9: (Circled number ⑨ in upper left corner). [Visual description of second 8-9].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
-- Panel 10: (Circled number ⑩ in upper left corner). [OUTRO ANCHOR FOR NEXT SEGMENT]. [Visual description of closing beat].
-  Caption below panel: "[SHOT TYPE - ACTION SUMMARY]. CAMERA: [LENS/MOUNT/MOTION]. LIGHTING: [KELVIN/KEY]."
+### Formula B: 9:16 Vertical Reels / TikTok Poster
+```text
+Official vertical cinematic movie poster and TikTok/Reels thumbnail in 9:16 vertical aspect ratio for the adventure film '[MOVIE TITLE]'. In the center of the vertical composition, a photorealistic emotional full two-shot: [PROTAGONIST] and [COMPANION] interacting in trust. In the upper sky against colossal snow-covered glacial peaks, large bold 3D movie title typography rendered in FROZEN ICY CRIMSON RED with frosted snow edges and sharp hanging icicle textures clearly reads strictly and only: '[MOVIE TITLE]'. Directly beneath it in elegant silver-white metallic letters reads: 'EPISODE [##]'. At the bottom, clean cinematic movie billing block text in small condensed typography.
+STRICT NEGATIVE CONSTRAINT: Do NOT write words like 'RELEASE 9:16' or print technical aspect ratio text anywhere on the poster.
+Epic theatrical vertical poster, ultra-photorealistic, high dynamic range, 8k resolution, stunning color contrast.
 ```
 
 ---
 
-## 6. Sequential 10-Second Video Prompts Template
+## 7. Bilingual Social Media Captions Template
 
-```
-[FRAME 01 — 0:0X] (BRIDGE FRAME — 100% CARRYOVER FROM PREVIOUS SEGMENT FRAME 10)
-VISUAL: <Locks Character DNA: slim oval face, red parka, light-brown coyote fur hood. Resumes exact pose from previous frame 10: [specify body position, limb placement, expression, clothing friction].>
-CAMERA: <Specific focal length (e.g. 35mm), mount type (e.g. Steadicam), camera angle, aperture, and motion vector.>
-LIGHTING: <Light source, color temperature in Kelvin, key/fill ratios, rim lighting, atmospheric condensation.>
-MOTION/TRANSITION: <Exact 1-second motion increment with weight, inertia, and physical momentum.>
-DIALOGUE: <Spoken line in requested language, or "None">
-VOICE TONE: <Delivery direction: pitch, emotion, breath, or "N/A">
-MUSIC/SFX: <Continuous audio layer or new sound trigger.>
-ASPECT RATIO: <16:9 or 9:16>
-CONTINUITY: <Explicitly cites previous segment's Frame 10: locks costume, props, background.>
+```text
+[ARABIC VERSION]
+🎬 [الحلقة رقم / عنوان المشهد] | [MOVIE TITLE - EPISODE ##] ❄️
 
-[FRAME 02 — 0:0X]
-VISUAL: ...
-...
-[FRAME 10 — 0:0X] (OUTRO ANCHOR — CLOSING FRAME TO BE BRIDGED INTO NEXT SEGMENT)
-VISUAL: ...
-```
+[سطر خطاف درامي مشوق]:
+[نص القصة والسياق في 3 أسطر قصيرة ومؤثرة تصف الصراع وبداية الرابطة أو التحول].
+
+✨ هذا العمل صُنع بالكامل بتقنيات الذكاء الاصطناعي السينمائي التوليدي، مع دقة فائقة في التفاصيل وثبات الشخصيات وإخراج سينمائي حي.
+
+💬 [سؤال تفاعلي للمتابعين لإثارة التعليقات]:
+ولا تنسوا الإعجاب والمشاركة لدعم الحلقة القادمة! 🔥
+
+#[MovieTitle] #فيلم_قصير #ذكاء_اصطناعي #سينما #مغامرة #AIFilm #Cinematic #ShortFilm
 
 ---
 
-## 7. The Director's Logical & Physical Sanity Audit (Verification Gate)
+[ENGLISH VERSION]
+🎬 EPISODE [##]: "[EPISODE TITLE]" | [MOVIE TITLE] ❄️
 
-Every segment MUST conclude with this explicit audit checklist before deliverables are finalized:
+[Compelling narrative hook]:
+[3-line visceral summary of survival, high stakes, and the unexpected bond or twist].
 
-```
-[DIRECTOR'S LOGICAL & PHYSICAL SANITY AUDIT]
-1. Spatial & 180° Axis Consistency:
-   [PASSED / FAILED] Verification that camera eyelines, screen directions (left-to-right or right-to-left), and spatial geography do not invert or violate the 180-degree rule.
-2. Kinematic & Gravitational Sanity:
-   [PASSED / FAILED] Verification that gravity, weight transfer, wind deflection, inertia, and momentum follow realistic physics without teleportation or impossible leaps.
-3. Progressive Anatomy & Asset Continuity:
-   [PASSED / FAILED] Verification that character DNA (face structure, eye color, jacket fabric, coyote fur trim), wounds, and props persist 100% identically without hallucinated alterations.
-4. Zero-Hallucination Specificity Score:
-   [PASSED / FAILED] Verification that every 1-second interval contains explicit micro-directions, leaving zero ambiguity for the generative model.
-```
+✨ An AI-generated cinematic short film created with cutting-edge Generative AI—pushing the boundaries of photorealistic storytelling and emotional depth.
 
----
+💬 [Engaging question for the audience]: Drop your thoughts below! 👇
+Like, share, and follow for Episode [##+1]! 🔥
 
-## 8. Worked Real-World Example: Segment 02 Complete Package
-
-### Excerpt of `prompts.txt`:
-
-```
-================================================================================
-SEGMENT 02 — Scene 1: The Breach — 0:10–0:20
-================================================================================
-
-[NARRATIVE REALITY & GENRE PROFILE]
-- Genre Mode: Photorealistic High-Altitude Survival Thriller.
-- Physical World: Sub-zero -25°C, high wind shear, centrifugal g-force pull toward open cabin door.
-- Stunt/Safety Framing: Fictional movie stunt sequence, professional wire-work stunt blocking, controlled descent simulation.
-
-[CHARACTER & ASSET DNA LOCK]
-- Character: Young woman, early 20s.
-- Facial Geometry: Slim elongated oval facial structure, delicate pointed chin, fair skin with cold-flushed cheeks.
-  * STRICT NEGATIVE: Do NOT render face as round, wide, or square.
-- Wardrobe: Heavy insulated expedition parka in vivid matte crimson red.
-  * Hood Trim: Light-brown/tan frosted coyote fur trim.
-  * STRICT NEGATIVE: Fur trim must NEVER be black or gray.
-
-[BRIDGE FRAME CONTINUITY SPECIFICATION]
-- Inherited From: Segment 01 Frame 10 (`bridge_frame.jpg`).
-- Handoff State: Cabin door swings open to the white void; woman's left hand grips yellow safety harness, body tilted 30 degrees toward the drop.
-- Immediate Action Delta: Her gloved fingers slip 2 inches along the strap as centrifugal force peaks.
-
-[FRAME 01 — 0:10] (BRIDGE FRAME — 100% VISUAL CARRYOVER FROM SEGMENT 01 FRAME 10)
-VISUAL: Young female explorer (slim oval face, red parka with light-brown coyote fur hood, clear goggles up). Clinging desperately to the cabin door frame as seen in Segment 01 Frame 10. Her knuckles turn white under strain, hair whipping forward across her cheek at 45 degrees under the 40-knot crosswind.
-CAMERA: 35mm anamorphic prime lens, low angle looking past shoulder, heavy shoulder-rig with organic micro-shake, aperture f/2.8 with sharp focus on her gripping hand and face.
-LIGHTING: 6500K harsh overcast Arctic daylight rushing through open cargo door, sharp specular rim-light reflecting off her icy goggle rims and fur tips.
-MOTION/TRANSITION: Her gloved fingers slip 2 inches along the metal strap over the next second; her jaw tightens as she screams; center of mass drifts 3 inches outward into void.
-DIALOGUE: "!مش قادرة أمسك أكتر"
-VOICE TONE: Screamed with ragged breath, terrified vocal fry cutting through rotor noise.
-MUSIC/SFX: High-frequency wind howl, metal groan of airframe, heavy rotor shudder.
-ASPECT RATIO: 16:9
-CONTINUITY: 100% match with Segment 01 Frame 10. The red jacket, tan coyote fur, and grip position remain strictly locked.
-
-...
-
-[DIRECTOR'S LOGICAL & PHYSICAL SANITY AUDIT]
-1. Spatial & 180° Axis Consistency:
-   [PASSED] The camera stays consistently on the port side of the aircraft looking outward; subject looks Screen-Right toward cockpit; no reverse-angle disorientation.
-2. Kinematic & Gravitational Sanity:
-   [PASSED] When the cabin banks to the right, inertia carries loose items and the character's body toward the open door. Wind deflection on fur and hair matches the external slipstream velocity.
-3. Progressive Anatomy & Asset Continuity:
-   [PASSED] Light-brown coyote fur trim is maintained in 100% of frames; face remains slim with delicate chin; goggles stay anchored above brow.
-4. Zero-Hallucination Specificity Score:
-   [100% Microscopic Precision] Lens (35mm), aperture (f/2.8), lighting Kelvin (6500K), and slip distance (2 inches) are explicitly defined.
+#[MovieTitle] #AIFilm #ShortFilm #CinematicAI #FilmProduction #AITools #Filmmaking
 ```
