@@ -1,15 +1,22 @@
-# Master Storyboard, Screenplay & Cinematic Prompting Formulas (v3.0)
+# Master Storyboard, Screenplay & Hyper-Precision Prompting Formulas (v4.0)
 
 This reference provides the production-grade templates and formulas for the complete AI video lifecycle:
 1. **The Master Screenplay & Scriptwriting Engine** (Cinematic Films, Viral Reels, AIDA Commercials, YouTube/Docs).
 2. **Aspect-Ratio-Aware Storyboard Sheets**:
    - **4×3 Widescreen Sheet (16:9 Panels)** with 2 Integrated Slate Cards.
    - **Dual 5+5 Vertical Sheets (9:16 Panels)** for Reels / TikTok.
-3. **The Unified Single-File Contract (`prompts.txt`)** (All-in-one deliverable with zero file clutter).
-4. **The Automated Safety-Shield Engine** (100% bypass of Gemini & Runway "dangerous situations" rejections).
-5. **The Anti-Morphing Single Continuous Take Formula** (Preserving facial likeness in Image-to-Video).
+3. **The 1:1 Visual-to-Kinematic Spatial Geometry Audit** (Mandatory pre-prompting analysis).
+4. **The Unified Single-File Contract (`prompts.txt`)** (All-in-one deliverable with zero file clutter).
+5. **The Hyper-Precision Video Prompt Architecture**:
+   - Automated Safety-Shield Engine (Gemini & Runway Policy Compliance).
+   - Anti-Morphing Single Continuous Take Formula.
+   - Planar Interaction Physics (Anti-Toroidal & Anti-Flipping).
+   - Spatial Negative Target Exclusions.
+   - Prop Anti-Duplication & Hand State Transitions.
+   - 4-Step Anatomical Mechanical Causality (Purging Negative Traps).
 6. **Cinematic Marketing Posters & Thumbnails** (16:9 YouTube Thumbnail & 9:16 Vertical Reels Poster).
 7. **Bilingual Social Media Captions** (Ready-to-post Facebook/YouTube/TikTok copy).
+8. **Real-World Production Failure Modes & Architectural Case Studies**.
 
 ---
 
@@ -98,62 +105,60 @@ Style: 100% PHOTOREALISTIC LIVE-ACTION CINEMATOGRAPHY shot on ARRI Alexa 65 with
 Top header in neat film production typography: 'SCENE TITLE: "[SCENE NAME]" | SEGMENT [##] ([START_TIME] - [END_TIME]) | PAGE: [P] OF [TOTAL]'.
 
 ROW 1 (PANELS 1 TO 4 - SECONDS [T1] TO [T4]):
-- Panel 1: (Circled 1). Wide 16:9 movie still. [BRIDGE FRAME CONTINUATION]. Caption: '1. [SHOT TITLE]. [LENS]. [KELVIN].'
-- Panel 2: (Circled 2). Wide 16:9 movie still. [DESCRIPTION]. Caption: '2. [SHOT TITLE]. [LENS].'
-- Panel 3: (Circled 3). Wide 16:9 movie still. [DESCRIPTION]. Caption: '3. [SHOT TITLE]. [LENS].'
-- Panel 4: (Circled 4). Wide 16:9 movie still. [DESCRIPTION]. Caption: '4. [SHOT TITLE]. [LENS].'
+- Panel 1: (Circled 1 in top-left). Wide 16:9 movie still. [SCENE SETUP / BRIDGE ANCHOR]. Caption: '1. ESTABLISHING. 35MM.'
+- Panel 2: (Circled 2). Wide 16:9 movie still. [REACTION BEAT]. Caption: '2. REACTION. 50MM.'
+- Panel 3: (Circled 3). Wide 16:9 movie still. [ACTION MOMENTUM]. Caption: '3. ACTION. 35MM.'
+- Panel 4: (Circled 4). Wide 16:9 movie still. [SUBTLE PUSH-IN]. Caption: '4. TENSION. 50MM.'
 
 ROW 2 (PANELS 5 TO 8 - SECONDS [T5] TO [T8]):
-- Panel 5: (Circled 5). Wide 16:9 movie still. [DESCRIPTION]. Caption: '5. [SHOT TITLE]. [LENS].'
-- Panel 6: (Circled 6). Wide 16:9 movie still. [DESCRIPTION]. Caption: '6. [SHOT TITLE]. [LENS].'
-- Panel 7: (Circled 7). Wide 16:9 movie still. [DESCRIPTION]. Caption: '7. [SHOT TITLE]. [LENS].'
-- Panel 8: (Circled 8). Wide 16:9 movie still. [DESCRIPTION]. Caption: '8. [SHOT TITLE]. [LENS].'
+- Panel 5: (Circled 5). Wide 16:9 movie still. [CLOSE REACTION / DETAILS]. Caption: '5. DETAIL. 85MM.'
+- Panel 6: (Circled 6). Wide 16:9 movie still. [CRITICAL INTERACTION]. Caption: '6. INTERACTION. 50MM.'
+- Panel 7: (Circled 7). Wide 16:9 movie still. [TURNING POINT]. Caption: '7. CLIMAX. 85MM.'
+- Panel 8: (Circled 8). Wide 16:9 movie still. [AFTERMATH / IMPACT]. Caption: '8. IMPACT. 35MM.'
 
-ROW 3 (PANELS 9 TO 12 - SECONDS [T9] TO [T10] & PRODUCTION SLATE CARDS):
-- Panel 9: (Circled 9). Wide 16:9 movie still. [DESCRIPTION]. Caption: '9. [SHOT TITLE]. [LENS].'
-- Panel 10: (Circled 10). Wide 16:9 movie still. [TERMINAL OUTRO FRAME]. Caption: '10. [SHOT TITLE]. [LENS].'
-- Panel 11: Technical Production Card styled as dark gray slate with clean white typography: 'AUDIO DNA PROFILE: Dialogue [TIMECODE] "[LINES]" -> Sound design: [SFX], Mix: [% DIALOGUE / % SFX / % MUSIC].'
-- Panel 12: Technical Production Card styled as dark gray slate with clean white typography: 'DIRECTOR LOGIC AUDIT: [PASSED] Eyeline axis locked, screen direction verified, asset consistency confirmed. 100% Safety Compliant.'
+ROW 3 (PANELS 9 TO 12 - SECONDS [T9] TO [T10] + 2 SLATE CARDS):
+- Panel 9: (Circled 9). Wide 16:9 movie still. [RESOLUTION]. Caption: '9. RESOLUTION. 50MM.'
+- Panel 10: (Circled 10). Wide 16:9 movie still. [TERMINAL BRIDGE FRAME]. Caption: '10. BRIDGE OUTRO. 35MM.'
+- Panel 11: Dark grey film production slate card titled 'AUDIO DNA PROFILE' with frequency waveforms and sound mix notes.
+- Panel 12: Dark grey film production slate card titled 'DIRECTOR LOGIC AUDIT' with audit checklist checkboxes and green '100% APPROVED' stamp.
 ```
+
+### Formula B: 9:16 Vertical Storyboard Sheets (Dual 5+5 Layout)
+Used for vertical mobile video (Reels, TikTok, Shorts). Generates two separate sheets (5 columns each) to preserve full vertical resolution.
 
 ---
 
-### Formula B: 9:16 Vertical Reels Storyboard Sheets (Dual 5+5 Sheets)
-Used for vertical short-form video (Reels, TikTok, Shorts). Generates **two separate sheets**, each containing 5 full-height vertical panels:
+## 3. The 1:1 Visual-to-Kinematic Spatial Geometry Audit
 
-#### Sheet 1 (Panels 1 to 5 — Seconds 0:00 to 0:05):
-```text
-A professional vertical cinematic contact sheet formatted in 5 VERTICAL COLUMNS side-by-side (5 panels total: Seconds 0:00 to 0:05).
-CRITICAL RULE: Every individual image panel inside the sheet is strictly a vertical 9:16 tall rectangular mobile frame.
-Top header: 'REEL TITLE: "[TITLE]" | PART 1 (0:00 - 0:05) | 9:16 VERTICAL'.
-- Panel 1: (Circled 1). Tall 9:16 vertical movie still. [THE 3-SECOND HOOK]. Caption: '1. HOOK. 24MM VERTICAL.'
-- Panel 2: (Circled 2). Tall 9:16 vertical movie still. [ESCALATION]. Caption: '2. REACTION. 35MM.'
-- Panel 3: (Circled 3). Tall 9:16 vertical movie still. [MOTION BEAT]. Caption: '3. ACTION. 50MM.'
-- Panel 4: (Circled 4). Tall 9:16 vertical movie still. [TENSION PEAK]. Caption: '4. TENSION. 85MM.'
-- Panel 5: (Circled 5). Tall 9:16 vertical movie still. [MID-POINT SHIFT]. Caption: '5. SHIFT. 35MM.'
-```
+> [!IMPORTANT]
+> **Mandatory Rule Before Writing Any Video Prompt:**  
+> The director/agent MUST perform this 5-point audit on the anchor image (`bridge_frame.jpg`). Never write a video prompt blindly without auditing the exact physical layout of the starting frame!
 
-#### Sheet 2 (Panels 6 to 10 — Seconds 0:05 to 0:10):
-```text
-A professional vertical cinematic contact sheet formatted in 5 VERTICAL COLUMNS side-by-side (5 panels total: Seconds 0:05 to 0:10).
-CRITICAL RULE: Every individual image panel inside the sheet is strictly a vertical 9:16 tall rectangular mobile frame.
-Top header: 'REEL TITLE: "[TITLE]" | PART 2 (0:05 - 0:10) | 9:16 VERTICAL'.
-- Panel 6: (Circled 6). Tall 9:16 vertical movie still. [PAYOFF ACCELERATION]. Caption: '6. PAYOFF. 50MM.'
-- Panel 7: (Circled 7). Tall 9:16 vertical movie still. [EMOTIONAL CLIMAX]. Caption: '7. CLIMAX. 85MM.'
-- Panel 8: (Circled 8). Tall 9:16 vertical movie still. [RESOLUTION]. Caption: '8. RESOLUTION. 35MM.'
-- Panel 9: (Circled 9). Tall 9:16 vertical movie still. [WIDE CONTEMPLATION]. Caption: '9. WIDE. 24MM.'
-- Panel 10: (Circled 10). Tall 9:16 vertical movie still. [LOOP ANCHOR / OUTRO]. Caption: '10. LOOP ANCHOR. 35MM.'
-```
+### The 5-Point Spatial Audit Checklist:
+1. **Pose & Posture Geometry**:
+   - Exact posture of every subject (e.g. Maya is kneeling on both knees at x=400; polar bear is lying prone on its belly with front paws outstretched).
+2. **Hand Coordinates & Prop Anchor**:
+   - Exact 2D/3D location of each hand and what it is holding. (e.g. Right hand at x=750 holding gauze pad; left hand resting on knee).
+3. **Spatial Reachability Gate**:
+   - Distance between acting hand and target object/surface:
+     * *Distance $\le$ 20% of frame width*: Direct planar reach permitted.
+     * *Distance > 20% of frame width*: **FAIL**. Diffusion models CANNOT crawl or walk without morphing. The director MUST either:
+       a) Reframe to a **Medium Action Cut / OTS Shot** where the hand is already adjacent ($\le$ 10 cm away).
+       b) Choreograph gross locomotion first before commanding any touch.
+4. **Target Anatomical Localization**:
+   - Explicit naming of target body part and its screen quadrant (e.g. "Screen-Right: circular reddish injury on the camera-facing shoulder blade").
+5. **Spatial Negative Exclusion**:
+   - Explicitly barring neighboring anatomy from receiving inpainting or props (e.g. "STRICT NEGATIVE: Do NOT place bandage on neck, ears, or chest. Neck and ears remain 100% clean bare white fur").
 
 ---
 
-## 3. The Unified Single-File Contract (`prompts.txt`)
+## 4. The Unified Single-File Contract (`prompts.txt`)
 
-Every segment folder MUST contain exactly ONE unified text file named `prompts.txt`. It integrates all necessary prompts into five distinct sections:
+Every segment folder MUST contain exactly ONE unified text file named `prompts.txt`:
 
 ```
 ================================================================================
-CINEMATIC MOVIE PRODUCTION — MASTER PROMPT PACKAGE
+CINEMATIC MOVIE PRODUCTION — MASTER PROMPT PACKAGE (v4.0)
 Project: [PROJECT NAME] | Segment: [SEGMENT NAME & TIMECODES]
 Aspect Ratio: [16:9 / 9:16] | Target Models: Gemini / Kling / Runway
 Bridge Frame Anchor: [PATH TO BRIDGE FRAME]
@@ -167,6 +172,16 @@ Bridge Frame Anchor: [PATH TO BRIDGE FRAME]
 - Negative Lighting Invariant: [STRICT NEGATIVE: Absolutely no sunlight, no golden hour, etc.].
 
 --------------------------------------------------------------------------------
+[SPATIAL GEOMETRY & ANCHOR AUDIT] (New in v4.0)
+--------------------------------------------------------------------------------
+- Character Posture: [e.g. Kneeling on flat snow, left glove on snow crust, right glove holding gauze at chest level].
+- Companion Posture: [e.g. Lying prone on belly, paws outstretched, head low facing left].
+- Target Feature: [e.g. Circular reddish injury patch on camera-facing shoulder blade on Screen-Right].
+- Spatial Reachability: [e.g. Hand is within direct reach in Medium Action Shot / 15% frame width].
+- Target Negative Exclusions: [e.g. Neck and ears must remain 100% clean bare white fur; zero bandages on neck or head].
+- Prop Hand Transition: [e.g. Gauze releases onto shoulder; empty gloves smooth dressing flat; zero duplicate gauze in hands].
+
+--------------------------------------------------------------------------------
 PART 1: MASTER STORYBOARD SHEET PROMPT (Image Generation)
 --------------------------------------------------------------------------------
 [Full prompt for generating the 4x3 or 5+5 sheet with headers, circled numbers, and technical captions]
@@ -176,11 +191,14 @@ PART 2: INSTANT VIDEO ENGINE PROMPT (Ready-to-Paste for Gemini / Kling / Runway)
 --------------------------------------------------------------------------------
 [Self-contained 10-second Image-to-Video prompt featuring:
  1. Reference Image Continuity Lock
- 2. Critical Visual Asset / Wound Direction (facing camera)
- 3. Strict Overcast / Lighting Negative Lock
- 4. Single Unbroken Continuous Steadicam/Dolly Take
- 5. Embedded Dialogue & Acoustic Cues
- 6. Safety-shielded Hollywood set framing]
+ 2. Critical 180° Axis & Target Localization
+ 3. Spatial Negative Exclusion Lock
+ 4. Strict Overcast / Lighting Negative Lock
+ 5. Single Unbroken Continuous Steadicam/Dolly Take
+ 6. Planar Direct Interaction Steps (Anti-Toroidal)
+ 7. Prop Release & Anti-Duplication Mechanics
+ 8. Embedded Dialogue & Acoustic Cues
+ 9. Safety-shielded Hollywood set framing]
 
 --------------------------------------------------------------------------------
 PART 3: SEQUENTIAL SECOND-BY-SECOND BREAKDOWN (Frames 01 to 10)
@@ -190,58 +208,59 @@ PART 3: SEQUENTIAL SECOND-BY-SECOND BREAKDOWN (Frames 01 to 10)
 --------------------------------------------------------------------------------
 PART 4: DIRECTOR'S LOGICAL & PHYSICAL SANITY AUDIT
 --------------------------------------------------------------------------------
-[Audit Checklist: 180° Axis, Kinematics, Asset Persistence, Anti-Hallucination] -> Status: [PASSED]
+[Audit Checklist: 180° Axis, Spatial Reachability, Planar Physics, Anti-Duplication, Asset Persistence] -> Status: [PASSED]
 ```
 
 ---
 
-## 4. The Automated Safety-Shield Engine
+## 5. Hyper-Precision Video Prompting Rules
 
-Convert potentially hazardous dramatic scenarios into safety-compliant studio terminology:
+### A. The Anti-Toroidal 2D/3D Interaction Rule (Preventing Flipping & Inversion)
+- **Banned Verbs**: `wraps around the joint, encircles the leg, wraps behind, ties around`.  
+  *Why:* Diffusion models interpret "wrapping around" as a command to reveal the occluded 3D backside, spinning the subject or jumping the 180° camera line, causing wounds to flip sides.
+- **Approved Planar Verbs**: `places flat directly over the wound, presses the sterile pad flat against the fur, smooths adhesive strips across the surface`.  
+  *Result:* The wound is covered in-place with zero 3D rotation!
 
-| Raw Story Element | Safety Policy Risk | Compliant Film-Set Translation |
-|---|---|---|
-| Deep bloody animal wound | "Gore / Violence" trigger | `distinct circular reddish theatrical stunt makeup mark on shoulder fur, sharply defined prop effect` |
-| Violent predator attack | "Dangerous situations" | `cooperative, docile trained animal companion interacting peacefully on an authorized studio set` |
-| Falling from helicopter | "Lethal danger / Suicide" | `controlled professional stunt fall onto deep protective snow cushion; cinematic action sequence` |
-| Human screaming in terror | "Distress / Trauma" | `expressive theatrical performance by professional actor expressing cinematic wonder and awe` |
-| Blood dripping on snow | "Graphic violence" | `staged cinematic prop effect, theatrical crimson pigment contrasting against pure white snow` |
+### B. Prop Anti-Duplication & Hand State Transitions
+- **The Problem**: Diffusion models often duplicate props (one copy stays in hand while another spawns on the target).
+- **The Fix**: Explicitly describe the release and empty hand:  
+  `Maya releases the white gauze pad onto the wound, smoothing it flat with empty black-gloved fingers. Zero duplicate gauze remains in her hands; her empty gloves rest gently on the secure dressing.`
 
-### Forbidden Words Programmatic Ban:
-`DO NOT USE:` *blood, bleeding, gore, attack, predator attack, lethal, fatal, slaughter, mutilation, severed, murder, killing.*  
-`USE INSTEAD:` *theatrical stunt makeup mark, reddish prop tint, simulated scratch, cooperative animal companion, peaceful encounter.*
-
----
-
-## 5. Anti-Morphing Single Continuous Take Formula
-
-Use this exact syntax for Part 2 Video Prompts:
-
-```text
-A scripted cinematic movie scene from a fictional family-friendly nature adventure film, shot in [16:9 / 9:16] on 35mm film with ARRI Alexa 65 cinematography.
-
-STRICT CONTINUITY & CHARACTER IDENTITY LOCK:
-Unbroken single-take continuation starting directly from the uploaded reference image. The character ([NAME], [KEY TRAITS: hair, hood, jacket, goggles]) MUST PRESERVE HER EXACT FACIAL IDENTITY, FEATURES, AND WARDROBE FROM THE REFERENCE IMAGE. Zero character morphing, zero alteration to her face or clothing.
-
-CRITICAL VISUAL MANDATE — [KEY ASSET / WOUND]:
-[Direct the asset to remain facing the camera throughout the entire duration: e.g. "The docile polar bear rests with its front-left shoulder turned directly toward the camera, PROMINENTLY AND CONTINUOUSLY DISPLAYING a distinct circular reddish injury patch on its shoulder fur. The reddish wound remains in clear view throughout the entire shot."].
-
-ATMOSPHERE & LIGHTING (STRICT NEGATIVE INVARIANTS):
-[Describe lighting accurately: e.g. "Cold overcast polar daylight (~6500K). Flat, diffused, soft shadowless lighting under a solid pale grey-white overcast sky. STRICT NEGATIVE / DO NOT INCLUDE: ABSOLUTELY NO SUNLIGHT, NO SUN, NO GOLDEN HOUR, NO SUNBEAMS, NO SUNSET GLOW, NO YELLOW OR ORANGE HORIZON TINTS, NO LENS FLARES. The lighting must be 100% cold, overcast, and diffused, exactly matching the reference image."].
-
-CAMERA & MOTION (SINGLE UNBROKEN SHOT):
-Continuous eye-level Steadicam tracking shot with a very subtle, smooth camera glide holding subjects in frame without any sudden cuts, perspective jumps, or tight zoom-ins. [Describe natural continuous character motion, embedded dialogue timing, and physical interactions].
-
-Style: Wholesome, peaceful cinematic drama, realistic live-action human and animal anatomy, visible [KEY ASSETS], [LIGHTING PROFILE], zero threat, zero violence, perfectly serene.
-```
+### C. 4-Step Anatomical Mechanical Causality
+- **The Problem**: Saying "she pulls the kit from her jacket" causes diffusion models to spawn the kit right out of the center of her chest.
+- **The Fix**: 4-Step Mechanical Chain:
+  1. Hand moves to specific zipper pull-tab on seam.
+  2. Hand pulls zipper downward along the seam line, parting the fabric fold.
+  3. Hand slides inside the opened pocket cavity.
+  4. Hand withdraws object outward through the opened slit into open air.
+- **Purge Negative Lexicon Traps**: Never write `(she does not pull it from the middle)` in the positive prompt! Text encoders latch onto the negated words and manifest them. Positive, sequential causality only.
 
 ---
 
-## 6. Cinematic Marketing Posters & Thumbnails
+## 6. Real-World Case Studies & Architectural Solutions
+
+### Case 1: The Chest Hallucination vs 4-Step Side Zipper Causality
+- *Symptom*: When commanding a character to retrieve a medical kit from a parka, the kit sprouted out of the middle of the jacket fabric like a magic box.
+- *Root Cause*: Prompts lacked mechanical causality ("she reaches into her jacket and pulls out a pouch"), and negative phrases like `(not from the middle)` caused the text encoder to latch onto `middle of the jacket`.
+- *Fix*: The 4-step zipper chain: grasp zipper tab $\rightarrow$ slide zipper down $\rightarrow$ enter opened flap $\rightarrow$ withdraw pouch outward. Zero negative words in positive prompt.
+
+### Case 2: The Shoulder Flipping vs Anti-Toroidal Planar Placement
+- *Symptom*: When commanding a character to bandage an animal's shoulder, the wound flipped to the opposite shoulder or the animal spun around.
+- *Root Cause*: The verb `wraps the bandage around the joint` forced the 3D diffusion engine to reveal the back of the joint, causing a 180° camera axis jump and flipping the shoulder.
+- *Fix*: Banned 3D wrapping; replaced with Planar Direct Placement (`places flat directly over the wound and smooths adhesive strips across the surface`).
+
+### Case 3: The Neck Bandage Anomaly vs Spatial Distance Re-framing
+- *Symptom*: In a wide two-shot where the human is at the animal's snout and the wound is 60 cm away on the shoulder blade, a bandage spawned on the animal's neck, leaving the wound untouched on the shoulder.
+- *Root Cause*: The human's hand was 600 pixels away from the shoulder in the 2D image. The diffusion model could not animate a human crawling across the snow, so it kept the human in place and pasted a bandage sticker onto the nearest surface (the neck!).
+- *Fix*: Enforced the Spatial Reachability Gate. Re-framed the starting image to a **Medium Action Shot** where the human's hand is already adjacent to the shoulder wound ($\le$ 15% frame width), combined with a strict negative exclusion (`DO NOT PLACE ANY BANDAGE ON THE NECK OR EAR`).
+
+---
+
+## 7. Cinematic Marketing Posters & Thumbnails
 
 ### Formula A: 16:9 Widescreen YouTube / Facebook Thumbnail
 ```text
-Official cinematic widescreen movie poster and YouTube thumbnail in 16:9 aspect ratio for the adventure film '[MOVIE TITLE]'. In the composition: on the right side, an intimate, photorealistic medium shot of [PROTAGONIST] crouched in the snow, gently resting her hand on [COMPANION / CREATURE WITH VISIBLE KEY ASSET]. Cold breath steam condenses into the icy polar air between them under a vast, overcast mountain landscape. In the open snowy area, large bold 3D movie title typography rendered in FROZEN ICY CRIMSON RED with frosted snow edges and sharp icicle textures clearly reads: '[MOVIE TITLE]'. Directly beneath it in elegant silver-white metallic letters reads: 'EPISODE [##]'. 
+Official cinematic widescreen movie poster and YouTube thumbnail in 16:9 aspect ratio for the adventure film '[MOVIE TITLE]'. In the composition: on the right side, an intimate, photorealistic medium shot of [PROTAGONIST] crouched in the snow, gently resting her hand on [COMPANION / CREATURE WITH VISIBLE KEY ASSET]. Cold breath steam condenses into the icy polar air between them under a vast, overcast landscape. In the open snowy area, large bold 3D movie title typography rendered in FROZEN ICY CRIMSON RED with frosted snow edges and sharp icicle textures clearly reads: '[MOVIE TITLE]'. Directly beneath it in elegant silver-white metallic letters reads: 'EPISODE [##]'. 
 NEGATIVE FILTER: Do NOT include any technical labels, timestamps, or aspect ratio numbers.
 Epic cinematic color grading, high contrast, emotional depth, 8k resolution, professional movie marketing thumbnail.
 ```
@@ -255,7 +274,7 @@ Epic theatrical vertical poster, ultra-photorealistic, high dynamic range, 8k re
 
 ---
 
-## 7. Bilingual Social Media Captions Template
+## 8. Bilingual Social Media Captions Template
 
 ```text
 [ARABIC VERSION]

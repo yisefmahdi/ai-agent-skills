@@ -1,4 +1,4 @@
-# Output Format — Folder Structure, Unified Prompts Contract & Marketing Assets (v3.0)
+# Output Format — Folder Structure, Unified Prompts Contract & Marketing Assets (v4.0)
 
 ## Project Folder Architecture
 
@@ -22,7 +22,7 @@ Create this standardized tree under the project root (e.g. `C:\motion\` or the a
 ├── Scene01_Segment02_<shortname>/
 │   ├── bridge_frame.jpg              <-- Dual Bridge Frame (extracted via video or sheet crop)
 │   ├── storyboard_sheet.jpg
-│   └── prompts.txt                   <-- UNIFIED MASTER PROMPT FILE
+│   └── prompts.txt                   <-- UNIFIED MASTER PROMPT FILE (Includes Spatial Audit)
 └── ...
 ```
 
@@ -32,13 +32,13 @@ Create this standardized tree under the project root (e.g. `C:\motion\` or the a
 
 ---
 
-## Unified `prompts.txt` Schema
+## Unified `prompts.txt` Schema (v4.0)
 
-Each segment folder contains a single self-contained `prompts.txt` following this exact 5-tier structure:
+Each segment folder contains a single self-contained `prompts.txt` following this exact 6-tier structure:
 
 ```
 ================================================================================
-CINEMATIC MOVIE PRODUCTION — MASTER PROMPT PACKAGE
+CINEMATIC MOVIE PRODUCTION — MASTER PROMPT PACKAGE (v4.0)
 Project: [PROJECT NAME] | Segment: [SEGMENT NAME & TIMECODES]
 Aspect Ratio: [16:9 Widescreen / 9:16 Vertical Reels]
 Target Models: Google Gemini Video / Kling AI / Runway Gen-3
@@ -65,6 +65,16 @@ Bridge Frame: Linked to Segment [PREV_SEGMENT] (`bridge_frame.jpg`)
   * [STRICT NEGATIVE: Absolutely NO sunlight, NO direct sun, NO golden hour, NO sunbeams, NO sunset glow, NO yellow/orange horizon tints. 100% cold diffused overcast daylight].
 
 --------------------------------------------------------------------------------
+[SPATIAL GEOMETRY & ANCHOR AUDIT] (New in v4.0)
+--------------------------------------------------------------------------------
+- Subject Postures: [Exact starting physical postures in bridge_frame.jpg].
+- Hand Coordinates & Prop Anchor: [Exact coordinates of hands and props held].
+- Spatial Reachability: [Distance from hand to target; verify <= 20% frame width or apply Medium Action Shot].
+- Target Anatomical Localization: [Exact body part and screen quadrant].
+- Spatial Negative Exclusions: [Explicitly barred neighboring anatomy, e.g. zero bandages on neck or ears].
+- Prop Hand Transition: [Hand release state, anti-duplication directive].
+
+--------------------------------------------------------------------------------
 PART 1: MASTER STORYBOARD SHEET PROMPT (Image Generation)
 --------------------------------------------------------------------------------
 [Complete prompt for generating the 4x3 Widescreen Sheet or Dual 5+5 Vertical Reels Sheets,
@@ -75,11 +85,14 @@ PART 2: INSTANT VIDEO ENGINE PROMPT (Ready-to-Paste for Gemini / Kling / Runway)
 --------------------------------------------------------------------------------
 [The complete, copy-pasteable, safety-shielded prompt featuring:
  1. Reference Image Continuity & Character Identity Lock (Zero Morphing)
- 2. Critical Visual Mandate / Asset Orientation (Wound facing camera)
- 3. Strict Atmosphere & Negative Lighting Lock (Overcast, no sun)
- 4. Single Unbroken Continuous Steadicam/Dolly Take (No sudden cuts or close-up zooms)
- 5. Embedded Dialogue & Vocal Performance Timing
- 6. Wholesome Cinematic Drama Style Profile]
+ 2. Critical 180° Axis & Target Localization (Wound facing camera)
+ 3. Spatial Negative Exclusion Lock (No stray props on neighboring anatomy)
+ 4. Strict Atmosphere & Negative Lighting Lock (Overcast, no sun)
+ 5. Single Unbroken Continuous Steadicam/Dolly Take
+ 6. Planar Direct Interaction Steps (Anti-Toroidal; zero 3D wrapping)
+ 7. Prop Release & Anti-Duplication Mechanics
+ 8. Embedded Dialogue & Vocal Performance Timing
+ 9. Wholesome Cinematic Drama Style Profile]
 
 --------------------------------------------------------------------------------
 PART 3: SEQUENTIAL SECOND-BY-SECOND BREAKDOWN (Frames 01 to 10)
@@ -90,42 +103,48 @@ PART 3: SEQUENTIAL SECOND-BY-SECOND BREAKDOWN (Frames 01 to 10)
 --------------------------------------------------------------------------------
 PART 4: DIRECTOR'S LOGICAL & PHYSICAL SANITY AUDIT
 --------------------------------------------------------------------------------
-[Formal 4-point verification report:
+[Formal 5-point verification report:
  1. Spatial Axis & 180° Eyeline Rule: [PASSED]
- 2. Kinematic & Gravitational Sanity: [PASSED]
- 3. Asset & Environmental Persistence (Wound, wardrobe, weather): [PASSED]
- 4. Anti-Hallucination Completeness (Single-actor isolation, no extra limbs): [PASSED]]
+ 2. Spatial Reachability & Feasibility: [PASSED]
+ 3. Planar Surface Interaction & Anti-Toroidal Physics: [PASSED]
+ 4. Prop Anti-Duplication & Hand State Transitions: [PASSED]
+ 5. Asset & Environmental Persistence (Wound, wardrobe, weather): [PASSED]]
 ```
 
 ---
 
-## Dual Bridge Frame Automation
+## Master Production Excel Ledger (`storyboard.xlsx`)
 
-To transition between segments, run the automated Python helper script:
+The workbook `storyboard.xlsx` tracks the entire production across two official sheets:
 
-```bash
-# Path A: When MP4 video has been rendered and saved locally
-python scripts/extract_bridge_frame.py --video "path/to/Segment_N.mp4" --out "path/to/Segment_N+1/bridge_frame.jpg"
+### Sheet 1: `Overview`
+High-level tracking of all 10-second segments across all episodes.
 
-# Path B: Fallback when working with images only (no local video file)
-python scripts/extract_bridge_frame.py --sheet "path/to/Segment_N/storyboard_sheet.jpg" --out "path/to/Segment_N+1/bridge_frame.jpg" --format 16x9
-```
+| Column | Header | Description |
+|---|---|---|
+| A | `Scene #` | Scene number (e.g. 1, 2, 5, 8). |
+| B | `Scene Title` | Descriptive dramatic title of the scene. |
+| C | `Segment #` | Monotonic segment index (1 to 18). |
+| D | `Segment Range` | Exact timecodes (e.g. `0:00-0:10`, `1:10-1:20`). |
+| E | `Setting` | Environmental location and lighting. |
+| F | `Characters` | Character names present in segment. |
+| G | `Tone` | Emotional and dramatic tone. |
 
----
+### Sheet 2: `Frames`
+Granular tracking of all individual seconds (Frames 01 to 10 of each segment).
 
-## Master Tracking Sheet (`storyboard.xlsx`) Columns
-
-Maintain project-wide continuity using these 12 columns in `storyboard.xlsx`:
-
-1. `Segment`: Segment ID (e.g. `Segment 01`).
-2. `Timecode`: Timestamp range (e.g. `0:00–0:10`).
-3. `Second`: Second index (e.g. `0:00`).
-4. `Frame_ID`: Frame identifier (e.g. `01`).
-5. `Shot_Type`: Shot scale and optic (e.g. `Wide Shot, 24mm`).
-6. `Camera_Movement`: Rig and motion vector (e.g. `Steadicam tracking forward`).
-7. `Action_Description`: Detailed physical action, Newtonian kinematics.
-8. `Lighting_Kelvin`: Color temperature and weather (e.g. `6500K overcast`).
-9. `Dialogue`: Spoken lines and timecodes.
-10. `Audio_SFX`: Foley, wind resistance, breath sound.
-11. `Bridge_Status`: `Anchor Frame`, `Internal Frame`, or `Handoff Outro`.
-12. `Generation_Status`: `Draft`, `Sheet_Generated`, `Video_Rendered`, `Approved`.
+| Column | Header | Description |
+|---|---|---|
+| A | `Scene #` | Scene number. |
+| B | `Scene Title` | Dramatic title. |
+| C | `Segment #` | Segment number. |
+| D | `Segment Range` | Timecode range. |
+| E | `Frame #` | Second index within segment (1 to 10). |
+| F | `Timestamp` | Exact video timecode (e.g. `1:14`). |
+| G | `Batch` | Grouping or render batch index. |
+| H | `Visual Summary` | 1-line description of the visual frame. |
+| I | `Camera` | Focal length, shot size, and camera movement. |
+| J | `Dialogue` | Exact spoken lines or `None`. |
+| K | `Music/SFX` | Foley, breath sounds, and musical score cues. |
+| L | `Folder Path` | Relative directory path. |
+| M | `Status` | `Video Generated` / `Master Sheet Ready & Verified`. |
