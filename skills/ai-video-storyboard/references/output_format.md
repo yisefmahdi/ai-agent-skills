@@ -1,4 +1,12 @@
-# Output Format — Folder Structure, Unified Prompts Contract & Marketing Assets (v4.0)
+# Output Format — Folder Structure, Unified Prompts Contract & Marketing Assets (v7.0)
+
+**Template note:** Bracketed values are project inputs. Any sample project details below (genre, character, clothing, weather, location, or asset) are illustrative only; replace them with approved source details and omit irrelevant fields.
+
+## Choose Output Scope Before Creating Files
+
+- A single poster, storyboard prompt, character sheet, location sheet, or video prompt is a standalone deliverable. Return only what the user requested; do not create a project tree or `prompts.txt` by default.
+- Use the project folder architecture and unified `prompts.txt` package only when the user requests a production package or the active project explicitly uses that structure.
+- A marketing poster is independent of the storyboard-to-video sequence. A character or location bible may serve as a reference for later work, but is not a required prerequisite unless the user requests that workflow.
 
 ## Project Folder Architecture
 
@@ -32,67 +40,77 @@ Create this standardized tree under the project root (e.g. `C:\motion\` or the a
 
 ---
 
-## Unified `prompts.txt` Schema (v4.0)
+## Unified `prompts.txt` Schema (v7.0)
 
-Each segment folder contains a single self-contained `prompts.txt` following this exact 6-tier structure:
+When a segment prompt package is requested, each segment folder may contain one self-contained `prompts.txt` using the relevant sections below. Omit sections that do not apply to the requested deliverable; do not force the full package on a standalone image prompt.
 
 ```
 ================================================================================
-CINEMATIC MOVIE PRODUCTION — MASTER PROMPT PACKAGE (v4.0)
+CINEMATIC MOVIE PRODUCTION — MASTER PROMPT PACKAGE (v7.0)
 Project: [PROJECT NAME] | Segment: [SEGMENT NAME & TIMECODES]
 Aspect Ratio: [16:9 Widescreen / 9:16 Vertical Reels]
-Target Models: Google Gemini Video / Kling AI / Runway Gen-3
+Target Models: Google Veo / Gemini Video / Kling AI / Runway Gen-3 / OpenAI Sora
 Bridge Frame: Linked to Segment [PREV_SEGMENT] (`bridge_frame.jpg`)
 ================================================================================
 
 --------------------------------------------------------------------------------
 [NARRATIVE REALITY & CHARACTER DNA LOCK]
 --------------------------------------------------------------------------------
-- Production Mode: Scripted Cinematic Family Adventure Drama.
-- Safety & Content Policy: 100% compliant with Google Gemini AI Safety Guidelines. 
-  (Framed as an authorized studio film set with professional stunts and theatrical prop makeup).
-- Character DNA:
-  * Identity: [e.g. Young female explorer, early 20s, sole human in scene].
-  * Facial Structure: [e.g. Slender elongated oval face, delicate pointed chin, fair skin].
-    STRICT NEGATIVE: Do NOT render face as round, wide, puffy, or square.
-  * Hair & Eyes: [e.g. Dark brunette, natural eyebrows, hazel eyes].
-  * Outerwear & Trim: [e.g. Vivid matte red insulated parka, light-brown coyote fur hood trim].
-    STRICT NEGATIVE: Fur trim must NEVER be black, dark gray, or synthetic neon.
-  * Accessories: [e.g. Clear ski goggles pushed up securely on forehead, black snow pants, black gloves].
-- Companion / Asset Mandate:
-  * [e.g. Docile young adult cream polar bear with PROMINENT distinct circular reddish injury patch on front-left shoulder fur facing the camera].
-- Negative Lighting Invariant:
-  * [STRICT NEGATIVE: Absolutely NO sunlight, NO direct sun, NO golden hour, NO sunbeams, NO sunset glow, NO yellow/orange horizon tints. 100% cold diffused overcast daylight].
+- Production Mode: [User-requested project/genre and visual medium].
+- Safety & Content Policy: [Apply the target platform's current rules where relevant; no prompt wording guarantees acceptance. Preserve the requested story and tone.]
+- Character DNA (replace every bracket with approved source facts):
+  * Identity: [name, role, age appearance, human/creature/robot as approved].
+  * Facial Structure & Bone Anchor: [approved face shape, cheekbones, jawline].
+    STRICT NEGATIVE: Do NOT render face as [list only unapproved variants relevant here]. [Include age lock only for approved adults.]
+  * Hair & Eyes: [approved hair color/style, eyes].
+  * Outerwear & Trim: [approved garments, colors, materials, exact placement].
+    STRICT NEGATIVE: [only script-relevant exclusions, e.g. wrong trim color].
+  * Accessories / Equipment: [approved items and where worn/held].
+- Companion / Asset Mandate (only if the scene has one):
+  * [approved species/object, temperament or condition, markings/props with exact placement].
+- Lighting / visual invariants:
+  * [Approved scene-specific palette, light direction, time of day, and exclusions; omit if not applicable.]
 
 --------------------------------------------------------------------------------
-[SPATIAL GEOMETRY & ANCHOR AUDIT] (New in v4.0)
+[SPATIAL GEOMETRY & ANCHOR AUDIT]
 --------------------------------------------------------------------------------
 - Subject Postures: [Exact starting physical postures in bridge_frame.jpg].
 - Hand Coordinates & Prop Anchor: [Exact coordinates of hands and props held].
-- Spatial Reachability: [Distance from hand to target; verify <= 20% frame width or apply Medium Action Shot].
+- Spatial Reachability: [Distance from hand to target; verify <= 15% frame width or apply Medium Action Shot].
 - Target Anatomical Localization: [Exact body part and screen quadrant].
-- Spatial Negative Exclusions: [Explicitly barred neighboring anatomy, e.g. zero bandages on neck or ears].
+- Spatial Negative Exclusions: [Explicitly barred neighboring anatomy, e.g. zero patches on neck or ears].
 - Prop Hand Transition: [Hand release state, anti-duplication directive].
 
 --------------------------------------------------------------------------------
-PART 1: MASTER STORYBOARD SHEET PROMPT (Image Generation)
+PART 1: MASTER STORYBOARD SHEET PROMPT (Image Generation — Step 1)
 --------------------------------------------------------------------------------
 [Complete prompt for generating the 4x3 Widescreen Sheet or Dual 5+5 Vertical Reels Sheets,
  including circled panel numbers ① to ⑩, camera directions, and technical slate cards].
 
 --------------------------------------------------------------------------------
-PART 2: INSTANT VIDEO ENGINE PROMPT (Ready-to-Paste for Gemini / Kling / Runway)
+PART 2: INSTANT STORYBOARD-TO-VIDEO ENGINE PROMPT (Built LAST after auditing sheet)
 --------------------------------------------------------------------------------
-[The complete, copy-pasteable, safety-shielded prompt featuring:
- 1. Reference Image Continuity & Character Identity Lock (Zero Morphing)
- 2. Critical 180° Axis & Target Localization (Wound facing camera)
- 3. Spatial Negative Exclusion Lock (No stray props on neighboring anatomy)
- 4. Strict Atmosphere & Negative Lighting Lock (Overcast, no sun)
- 5. Single Unbroken Continuous Steadicam/Dolly Take
- 6. Planar Direct Interaction Steps (Anti-Toroidal; zero 3D wrapping)
- 7. Prop Release & Anti-Duplication Mechanics
- 8. Embedded Dialogue & Vocal Performance Timing
- 9. Wholesome Cinematic Drama Style Profile]
+[CRITICAL ZERO-GRID MANDATE — INSTANT FULL-SCREEN LIVE ACTION AT 0:00S]:
+From the very first frame at 0.00 seconds, the video MUST BE 100% FULL-SCREEN LIVE ACTION CINEMA.
+STRICT NEGATIVE: ABSOLUTELY DO NOT SHOW THE STORYBOARD SHEET, DO NOT SHOW THE 12-PANEL GRID, DO NOT SHOW WHITE OR BLACK FRAMES/BORDERS, AND DO NOT DISPLAY TEXT CAPTIONS IN THE FIRST SECOND!
+
+[SAFETY & PRODUCTION FRAMEWORK]:
+[OPTIONAL: use fictional-production/staged-action context only if it fits the project. Preserve the requested genre, action, and stakes; do not claim this wording guarantees platform acceptance.]
+
+[CAMERA & DIRECTING MODE]:
+[Mode A: Steadicam Unidirectional Vector (Follow/Lead shot with zero spinning) OR Mode B: Hollywood Cinematic Coverage Cuts].
+
+[CHOREOGRAPHY & SECOND-BY-SECOND MILESTONES]:
+- Seconds 0:00–0:02: [Panels 1 & 2 Action].
+- Seconds 0:02–0:04: [Panels 3 & 4 Action].
+- Seconds 0:04–0:06: [Panels 5 & 6 Action].
+- Seconds 0:06–0:08: [Panels 7 & 8 Action].
+- Seconds 0:08–0:10: [Panels 9 & 10 Action + Destination Reveal].
+
+[CONTINUITY & INVARIANTS]:
+- 180° Axis lock, Character DNA lock, prop/marking persistence per script.
+- Weather/atmosphere dynamics: only scripted effects, continuous across the unit.
+- Atmosphere & Lighting: approved Kelvin/palette and volumetric treatment.
 
 --------------------------------------------------------------------------------
 PART 3: SEQUENTIAL SECOND-BY-SECOND BREAKDOWN (Frames 01 to 10)
