@@ -1,4 +1,4 @@
-# Output Format — Folder Structure, Unified Prompts Contract & Marketing Assets (v7.0)
+﻿# Output Format — Folder Structure, Unified Prompts Contract & Marketing Assets (v8.0)
 
 **Template note:** Bracketed values are project inputs. Any sample project details below (genre, character, clothing, weather, location, or asset) are illustrative only; replace them with approved source details and omit irrelevant fields.
 
@@ -166,3 +166,52 @@ Granular tracking of all individual seconds (Frames 01 to 10 of each segment).
 | K | `Music/SFX` | Foley, breath sounds, and musical score cues. |
 | L | `Folder Path` | Relative directory path. |
 | M | `Status` | `Video Generated` / `Master Sheet Ready & Verified`. |
+
+---
+
+## Reel Analysis & Decomposition Package Architecture (v8.0)
+
+When executing the **REEL ANALYSIS** mode, outputs are systematically structured in the target analysis directory:
+
+`
+<reel_name>_Analysis/
+├── frames/                           <-- Extracted frames (~3 frames per second)
+│   ├── frame_0001.jpg                <-- Timestamped high-res frame capture
+│   ├── frame_0002.jpg
+│   ├── frame_0003.jpg
+│   └── ...
+├── reel_analysis.md                  <-- Comprehensive multi-section analysis report
+└── reel_prompts.txt                  <-- Segment-by-segment AI video reproduction prompts
+`
+
+### Schema: eel_analysis.md
+1. **Video Metadata & Telemetry Table**: Resolution, duration, native fps, sampling rate, total captures, detected cut count, total segments.
+2. **Sub-Second Frame Audit Table**: Frame index, exact timestamp (MM:SS.mmm), segment ID, cut flag (🔪), frame filename, shot scale, camera movement, lighting, subject/action, transition, on-screen text, audio cue.
+3. **Segment Overview Ledger**: Start/end timecodes, duration, constituent frames, narrative purpose, lighting summary, camera vocabulary.
+4. **Narrative & Strategic Modules**:
+   - Overall Analysis Summary: High-level creative breakdown.
+   - Shot Sequence Map: Visual progression pipeline.
+   - Camera Movement Pattern: Grammatical motion catalog.
+   - Color Grading & Lighting Analysis: Palette and Kelvin audit.
+   - Pacing & Rhythm Analysis: Cut intervals, retention hook mechanics (0–3s), pacing acceleration.
+   - Text, Graphics & Overlay Analysis: Typography style, placement, duration.
+   - Audio & Music Sync Notes: Audio-visual sync cues, sound design markers.
+   - Continuity & Transition Notes: Transition taxonomy and axis continuity.
+
+### Schema: eel_prompts.txt
+One dedicated generation block per detected continuous segment, formatted with full optical, camera, lighting, and action specifications ready to paste into AI video generation models.
+
+---
+
+## Standalone Image-to-Prompt Output Schema (image_prompt_*.txt)
+
+When saving an image reverse-engineering result:
+`
+image_prompt_<YYYYMMDD_HHMMSS>.txt
+`
+Contains:
+1. Header: Source image name, dimensions, aspect ratio, estimated capture medium.
+2. Complete 12-dimension visual breakdown.
+3. High-fidelity Master Prompt in English for generation tools (Midjourney, Flux, Ideogram, Imagen).
+4. Strict negative prompt block.
+5. (If element swap requested): Complete Modified Prompt incorporating swapped elements.

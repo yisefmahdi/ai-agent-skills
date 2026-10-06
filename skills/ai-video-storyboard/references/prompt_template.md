@@ -1,4 +1,4 @@
-# Master Storyboard, Screenplay & Hollywood Studio Director Formulas (v7.0)
+﻿# Master Storyboard, Screenplay & Hollywood Studio Director Formulas (v8.0)
 
 > Template note: bracketed values are project inputs. Any sample names, creatures, wardrobe, or climates in examples are illustrative only — replace them with the user's approved source details.
 
@@ -28,7 +28,7 @@ This reference provides the production-grade templates and formulas for the comp
 Use only the prompt type the user requests. The user may invoke the skill and describe the task naturally, or use one of these short mode labels:
 
 ```text
-MODE: STORYBOARD | FILM POSTER | CHARACTER BIBLE | LOCATION BIBLE | SCREENPLAY / SHOT PLAN | VIDEO PROMPT
+MODE: STORYBOARD | FILM POSTER | CHARACTER BIBLE | LOCATION BIBLE | SCREENPLAY / SHOT PLAN | VIDEO PROMPT | IMAGE-TO-PROMPT | REEL ANALYSIS
 Project/title: [exact name]
 Source material: [script, image references, or established facts]
 Output/prompt language: [e.g. English]
@@ -357,3 +357,92 @@ Like, share, and follow for Episode [##+1]! 🔥
 | **Case 7** | Adult face de-ages into a child face. | Diffusion smoothing in wide shots. | **Adult Skeletal Identity Lock** (approved age/bone structure) + negative child tokens. |
 | **Case 8** | System refusal ("I can't generate that video"). | Words triggering platform filters. | **Safety-aware rewording**; follow platform rules, no bypass claims. |
 | **Case 9** | Video becomes a monotonous movement loop. | Lack of physical sub-actions across the unit. | **Biomechanical Micro-Action Staging** (scripted milestone progression). |
+
+---
+
+## 14. IMAGE-TO-PROMPT Reverse Engineering Master Formula (v8.0)
+
+Use this formula to decompose any uploaded or referenced image into a reproduction-grade AI image prompt, with optional element swap directives:
+
+`	ext
+[IMAGE REVERSE-ENGINEERING & SYNTHESIS PROMPT]
+Target Engine: Midjourney v6.1 / Ideogram v2 / FLUX.1 Pro / DALL-E 3 / Stable Diffusion 3.5
+
+-- CANVAS & OPTICAL PROFILE --
+Aspect Ratio: [e.g. 16:9 widescreen / 9:16 vertical / 1:1 square]
+Exact Native Resolution: [e.g. 1920x1080 px]
+Visual Medium: [e.g. Ultra-realistic cinematic 35mm film still, commercial studio photography, octane 3D render]
+Camera & Lens: [e.g. ARRI Alexa 65, 50mm Anamorphic Prime T1.8, shallow depth of field, creamy oval bokeh, razor-sharp focal plane on subject iris]
+
+-- COMPOSITION & SPATIAL GEOMETRY --
+Compositional Rule: [e.g. Golden ratio spiral, strict centered symmetry, rule of thirds, Dutch angle]
+Subject Placement: [e.g. Hero subject located in lower-right third; negative space left-weighted for graphic copy]
+Horizon & Depth: [e.g. Low-angle perspective looking slightly upward; 3 distinct planes: macro foreground, sharp midground, compressed blurred background]
+
+-- ILLUMINATION & COLOR SCIENCE --
+Key Light: [e.g. 45-degree high-contrast Rembrandt key light from camera left, soft diffused beauty dish]
+Fill & Rim: [e.g. 8:1 high-contrast dramatic fill ratio; crisp 10000K electric-cyan rim light separating shoulders from backdrop]
+Color Temperature & Grade: [e.g. 3200K tungsten facial tones balanced against 7500K steel-blue ambient; Kodachrome 64 vintage color grade with deep blacks and rich cyan shadows]
+Volumetric & Atmospheric Physics: [e.g. Subtle Tyndall scattering through soft atmospheric haze; realistic specular skin highlights]
+
+-- SUBJECT CHOREOGRAPHY & ANATOMY --
+Primary Subject: [Exhaustive anatomical and physical description: age, bone structure, facial micro-expression, gaze angle, skin texture, pores, hands, posture]
+[IF SWAPPING PERSON / SUBJECT]:
+[ORIGINAL SUBJECT ANCHOR]: [Details of original subject from source image]
+[SWAP TARGET REPLACEMENT]: [Exact detailed replacement subject: name/type, locked bone structure, clothing, matching lighting angle and scale exactly]
+
+-- WARDROBE, MATERIALS & TEXTURES --
+Garments: [Exact fabric classification: e.g. heavy-gauge weathered canvas, matte distressed lambskin leather, silk weave]
+Hardware & Details: [Zipper teeth, brass buttons, stitching density, seam lines, worn patina]
+
+-- ENVIRONMENT & SCENOGRAPHY --
+Setting: [Indoor/outdoor/studio: architectural style, environmental materials, background elements, flooring]
+Weather & Particles: [Rain sheen, airborne dust motes, frost condensation, pristine clean air]
+
+-- GRAPHICS, LABELS & TYPOGRAPHY (IF PRESENT) --
+On-Image Text: [Exact transcription or replacement copy: font classification, weight, color, position, 3D embossing/shadow]
+
+-- NEGATIVE PROMPT CONSTRAINTS --
+STRICT NEGATIVE: blurry, distorted anatomy, extra limbs, bad hands, plastic skin, oversaturated, amateur lighting, watermark, signature, cropped borders.
+`
+
+---
+
+## 15. Reel Decomposition & AI Video Reproduction Formula (v8.0)
+
+Used in conjunction with scripts/analyze_reel.py to recreate a short-form video reel segment-by-segment:
+
+`	ext
+================================================================================
+REEL SEGMENT REPRODUCTION MASTER PROMPT (SEGMENT S[##])
+Timecode: [START_TIME] - [END_TIME] (Duration: [X.XX]s)
+Reference Frame Range: [frame_0001.jpg - frame_0012.jpg]
+Target Models: Google Veo / Kling 1.5 / Runway Gen-3 Alpha / OpenAI Sora
+================================================================================
+
+[INSTANT CINEMATIC FULL-SCREEN ACTION MANDATE AT 0:00S]:
+Video starts immediately at 0.00 seconds as pure full-screen live action cinema. Zero UI overlays, zero storyboard frames, zero borders.
+
+[CAMERA GRAMMAR & KINEMATIC VECTOR]:
+- Shot Scale: [e.g. Low-Angle Medium Close-Up]
+- Lens / Focal Length: [e.g. 24mm Wide Anamorphic T2.0]
+- Depth of Field: [e.g. Deep focus across foreground subject and immediate midground]
+- Camera Vector / Movement: [e.g. Rapid forward push-in tracking subject at 2.0 m/s with zero lateral drift and zero rotation]
+
+[CHOREOGRAPHY & SUB-SECOND BEATS]:
+- 0.00s - [T1]s: [Action initiation, posture, eye contact]
+- [T1]s - [T2]s: [Physical action peak, interaction with object/environment]
+- [T2]s - [END]s: [Action completion, precise terminal kinematic state matching next segment cut]
+
+[LIGHTING, KELVIN & ATMOSPHERE]:
+- Color Science: [e.g. 5600K balanced daylight, natural skin tones]
+- Lighting Scheme: [e.g. Overhead directional soft sunlight with soft ambient ground bounce]
+- Atmosphere: [e.g. Clean crisp air, high optical clarity]
+
+[SUBJECT DNA & WARDROBE]:
+- Identity & Anatomy: [Locked facial features, hair, skin, physique]
+- Garments & Gear: [Garment types, colors, physics of movement in motion]
+
+[STRICT NEGATIVE PROMPT MANDATE]:
+STRICT NEGATIVE: turntable spin, 180-degree character turn, de-aging, cartoon, morphing limbs, camera jitter, logo, watermark, UI frame.
+`
