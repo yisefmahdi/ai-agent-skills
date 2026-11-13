@@ -4,6 +4,9 @@ description: Use at the start of any project — the very first message, or when
 ---
 
 # Project Onboarding & Structural Memory Skill
+> 👨‍💻 **تطوير:** يوسف مهدي | **واتساب:** [wa.me/972599125246](https://wa.me/972599125246)  
+> 🌐 **Developer:** Yousef Mahdi | **WhatsApp:** [wa.me/972599125246](https://wa.me/972599125246)
+
 
 The goal of this skill: every project — empty or with existing code — gets a **deep, comprehensive architectural document** at `project-structure.md` in the project root, not just a shallow summary. The point is that any developer (or the agent itself, in a brand-new session) can read this one file and fully understand the project: the complete folder structure, routes, controllers and models, the full database schema with columns and relationships, data flow between parts, and even in-progress multi-step build plans. Every later interaction relies on this memory instead of re-asking the same questions or guessing facts about the project.
 
