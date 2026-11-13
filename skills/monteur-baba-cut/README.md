@@ -1,4 +1,7 @@
 # 👑 Monteur Baba Cut | مونتير بابا كت (v6.6)
+> 👨‍💻 **تطوير:** يوسف مهدي | **واتساب:** [wa.me/972599125246](https://wa.me/972599125246)  
+> 🌐 **Developer:** Yousef Mahdi | **WhatsApp:** [wa.me/972599125246](https://wa.me/972599125246)
+
 
 **المحرك السينمائي المستقل لإنتاج الموشن جرافيك ومونتاج الفيديو والريلز بالذكاء الاصطناعي (Universal Spatial Physics & Procedural Vector Edition).**
 
@@ -201,3 +204,9 @@ python scripts/engine.py \
   * [`references/anti-ppt-cinematics.md`](references/anti-ppt-cinematics.md) — قواعد الإخراج السينمائي المستمر وتجنب العرض التقديمي.
   * [`references/macro-cinematography.md`](references/macro-cinematography.md) — زوايا التصوير الماكرو وحركات الكاميرا.
   * [`references/openverse-audio-foley.md`](references/openverse-audio-foley.md) — دليل دمج المؤثرات الصوتية الواقعية المرخصة.
+
+---
+
+## 👨‍💻 المطور والتواصل (Developer & Contact)
+* **تطوير:** يوسف مهدي (Yousef Mahdi)
+* **واتساب (WhatsApp):** [wa.me/972599125246](https://wa.me/972599125246)

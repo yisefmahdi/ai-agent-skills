@@ -4,6 +4,9 @@ description: Plan and create AI film assets, including screenplays, shot lists, 
 ---
 
 # AI Video Storyboard, Screenplay & Hollywood Studio Director Master Engine (v8.0)
+> 👨‍💻 **تطوير:** يوسف مهدي | **واتساب:** [wa.me/972599125246](https://wa.me/972599125246)  
+> 🌐 **Developer:** Yousef Mahdi | **WhatsApp:** [wa.me/972599125246](https://wa.me/972599125246)
+
 
 ## Overview
 

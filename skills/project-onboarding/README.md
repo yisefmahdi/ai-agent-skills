@@ -1,4 +1,7 @@
 # Project Onboarding & Structural Memory Skill
+> 👨‍💻 **تطوير:** يوسف مهدي | **واتساب:** [wa.me/972599125246](https://wa.me/972599125246)  
+> 🌐 **Developer:** Yousef Mahdi | **WhatsApp:** [wa.me/972599125246](https://wa.me/972599125246)
+
 
 A single-file [Agent Skill](https://agentskills.io) that turns any AI coding agent into a project onboarding assistant. On the first message in a new or existing project, it interviews you (or scans your codebase) and builds **one deep, living architecture file** — `project-structure.md` — that the agent keeps reading from and updating for the rest of the project's life.
 
@@ -96,3 +99,9 @@ Issues and PRs welcome — especially real-world examples of where the skill und
 ## License
 
 MIT — use it, fork it, adapt it.
+
+---
+
+## 👨‍💻 المطور والتواصل (Developer & Contact)
+* **تطوير:** يوسف مهدي (Yousef Mahdi)
+* **واتساب (WhatsApp):** [wa.me/972599125246](https://wa.me/972599125246)

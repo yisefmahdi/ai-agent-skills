@@ -4,6 +4,9 @@ description: Autonomous end-to-end AI motion graphics & video production engine 
 ---
 
 # Monteur Baba Cut (v6.6) — Universal Spatial Physics & Procedural Engine
+> 👨‍💻 **تطوير:** يوسف مهدي | **واتساب:** [wa.me/972599125246](https://wa.me/972599125246)  
+> 🌐 **Developer:** Yousef Mahdi | **WhatsApp:** [wa.me/972599125246](https://wa.me/972599125246)
+
 **المحرك السينمائي المتكامل لموشن جرافيك ومونتاج الفيديو بالذكاء الاصطناعي (Monteur Baba Cut Edition)**
 
 ---

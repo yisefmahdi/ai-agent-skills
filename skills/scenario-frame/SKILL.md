@@ -4,6 +4,9 @@ description: Use this skill whenever the user wants to turn an ad/video script (
 ---
 
 # Scenario-Frame — من السيناريو للفريمات بدقة إنتاجية
+> 👨‍💻 **تطوير:** يوسف مهدي | **واتساب:** [wa.me/972599125246](https://wa.me/972599125246)  
+> 🌐 **Developer:** Yousef Mahdi | **WhatsApp:** [wa.me/972599125246](https://wa.me/972599125246)
+
 
 **Scenario-Frame** يحوّل سيناريو خام (أي لغة) لحزمة إنتاج جاهزة: فريمات دقيقة، تحليل حركي فيزيائي، مرجعيات ثابتة، وحماية صريحة من هلوسة الذكاء الاصطناعي — كل هذا بملف إكسل واحد.
 
